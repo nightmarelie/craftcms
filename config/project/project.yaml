@@ -1,0 +1,22 @@
+dateModified: 1648337172
+email:
+  fromEmail: nightmarelie@gmail.com
+  fromName: 'Craft CMS'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    01ef494b-c370-43e4-bbe3-2d5a6bb07a04: 'Craft CMS' # Craft CMS
+    4ab9de46-8152-453e-bbea-5420fa31d3f4: Common # Common
+    00271a83-c8ad-4864-b686-aa96658c722f: 'Craft CMS' # Craft CMS
+system:
+  edition: solo
+  live: true
+  name: 'Craft CMS'
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

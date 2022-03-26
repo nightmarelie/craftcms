@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-CA
+name: 'Craft CMS'
+primary: true
+siteGroup: 01ef494b-c370-43e4-bbe3-2d5a6bb07a04 # Craft CMS
+sortOrder: 1
