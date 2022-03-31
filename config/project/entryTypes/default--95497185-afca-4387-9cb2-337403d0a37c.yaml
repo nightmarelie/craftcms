@@ -1,0 +1,38 @@
+fieldLayouts:
+  2ab4b96a-6044-459c-b4b7-7aed0f11bdd0:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Контент
+        sortOrder: 1
+handle: default
+hasTitleField: true
+name: 'По умолчанию'
+section: e5f3dfd6-ba18-47d1-ab55-e6734f5eb6f5 # Blog
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
