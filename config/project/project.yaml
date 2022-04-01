@@ -1,4 +1,4 @@
-dateModified: 1648788343
+dateModified: 1648788561
 email:
   fromEmail: nightmarelie@gmail.com
   fromName: 'Craft CMS'
@@ -14,6 +14,7 @@ meta:
     624c5a89-6ecf-48fb-9c1e-e23d91579e41: 'Blog Post Fields' # Blog Post Fields
     95497185-afca-4387-9cb2-337403d0a37c: 'По умолчанию' # По умолчанию
     e5f3dfd6-ba18-47d1-ab55-e6734f5eb6f5: Blog # Blog
+    fff4c499-7fd9-4657-9395-7aa99c768dfc: 'Feature image' # Feature image
 plugins:
   redactor:
     edition: standard
