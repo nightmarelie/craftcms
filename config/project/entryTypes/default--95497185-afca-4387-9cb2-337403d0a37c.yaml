@@ -4,6 +4,29 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: Headline
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
             fieldUid: 57e741e7-dc8e-4e79-90ee-b15a840b8e37 # Summary
             instructions: null
             label: null
@@ -19,29 +42,6 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            disabled: false
-            id: null
-            instructions: ''
-            label: ''
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
           -
@@ -65,10 +65,10 @@ fieldLayouts:
         name: 'Post Content'
         sortOrder: 1
 handle: default
-hasTitleField: false
+hasTitleField: true
 name: Blog
 section: e5f3dfd6-ba18-47d1-ab55-e6734f5eb6f5 # Blog
 sortOrder: 1
-titleFormat: 'Title Field Label'
+titleFormat: Headline
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
