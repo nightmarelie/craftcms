@@ -1,0 +1,19 @@
+columnSuffix: jszlvihn
+contentColumnType: text
+fieldGroup: a9d8a3b7-a19e-463e-b767-8488d09b058e # Global Fields
+handle: siteDescription
+instructions: ''
+name: 'Site Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '1'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
