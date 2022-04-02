@@ -1,4 +1,4 @@
-dateModified: 1648871557
+dateModified: 1648871662
 email:
   fromEmail: nightmarelie@gmail.com
   fromName: 'Craft CMS'
@@ -18,10 +18,12 @@ meta:
     186d891b-9a56-43ea-8e79-b48cb235cd02: 'Blog Categories' # Blog Categories
     00271a83-c8ad-4864-b686-aa96658c722f: 'Craft CMS' # Craft CMS
     624c5a89-6ecf-48fb-9c1e-e23d91579e41: 'Blog Post Fields' # Blog Post Fields
+    741fc226-5592-4464-8f60-b5880a0fa98c: About # About
     0862cea9-8276-4009-b21c-ed1fca9c702e: 'Post Categories' # Post Categories
     95497185-afca-4387-9cb2-337403d0a37c: Blog # Blog
     a9d8a3b7-a19e-463e-b767-8488d09b058e: 'Global Fields' # Global Fields
     d03bfd11-9910-495d-8872-d93d3a1d30e1: 'Site Information' # Site Information
+    d5f39b4a-043f-414b-b8b3-b663bf8c16fa: About # About
     e5f3dfd6-ba18-47d1-ab55-e6734f5eb6f5: Blog # Blog
     f0b90b3a-6bf5-4a99-adae-bb7d6e29d86f: Text # Text
     fff4c499-7fd9-4657-9395-7aa99c768dfc: 'Feature image' # Feature image
