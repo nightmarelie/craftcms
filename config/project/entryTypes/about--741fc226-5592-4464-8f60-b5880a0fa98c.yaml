@@ -26,7 +26,25 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
-        name: Контент
+          -
+            fieldUid: 6a8ba536-ea62-4dca-b0b8-1ac932e9cd13 # About Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 54e29fb3-8d88-44bd-ba19-60be1ea3601b # Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
         sortOrder: 1
 handle: about
 hasTitleField: false
