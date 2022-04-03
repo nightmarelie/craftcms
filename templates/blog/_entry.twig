@@ -18,17 +18,16 @@
 		{% endfor %}
 	{% endif %}
 
-	<div class="my-8">
-		{% for block in entry.postContent.all() %}
-			<div class="my-4">
-				{% if block.type == 'text' %}
-					{{ block.text }}
-				{% elseif block.type == 'image' %}
-					{% for image in block.image.all() %}
-						<img src="{{ image.url }}" alt="{{ image.title }}"/>
-					{% endfor %}
-				{% endif %}
-			</div>
-		{% endfor %}
-	</div>
+	{% include "_includes/post-blocks.twig" with { blocks: entry.postContent.all() } only %}
+
+	{# display post categories #}
+	{% if entry.postCategories|length %}
+		<div class="border-t py-2 mb-6">
+			{% for category in entry.postCategories.all() %}
+				<a href="{{ category.url }}" class="inline-block border rounded px-2 py-1 text-sm">
+					{{- category.title -}}
+				</a>
+			{% endfor %}
+		</div>
+	{% endif %}
 {% endblock %}

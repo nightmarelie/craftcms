@@ -13,54 +13,11 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-          -
-            fieldUid: 6c08ce07-b661-4c40-bca8-05e4cf2eabae # Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
         name: Content
         sortOrder: 1
 fields:
-  6c08ce07-b661-4c40-bca8-05e4cf2eabae: # Image
-    columnSuffix: null
-    contentColumnType: string
-    fieldGroup: null
-    handle: image
-    instructions: ''
-    name: Image
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      allowUploads: true
-      allowedKinds:
-        - image
-      defaultUploadLocationSource: 'volume:57d479f8-21be-4448-a8ba-0381c3dc8102' # Blog
-      defaultUploadLocationSubpath: ''
-      limit: ''
-      localizeRelations: false
-      previewMode: full
-      restrictFiles: '1'
-      selectionLabel: ''
-      showSiteMenu: false
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:57d479f8-21be-4448-a8ba-0381c3dc8102' # Blog
-      singleUploadLocationSubpath: ''
-      source: null
-      sources: '*'
-      targetSiteId: null
-      useSingleFolder: true
-      validateRelatedElements: false
-      viewMode: list
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
   f0b90b3a-6bf5-4a99-adae-bb7d6e29d86f: # Text
-    columnSuffix: txuwpmvi
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: text
